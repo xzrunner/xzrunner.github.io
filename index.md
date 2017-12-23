@@ -2,6 +2,7 @@
 
 # Editor
 
+* [easycomplex](editor/easycomplex/index.md) 
+
 Compose scene nodes.
 
-![easycomplex](editor/easycomplex/index.md)
