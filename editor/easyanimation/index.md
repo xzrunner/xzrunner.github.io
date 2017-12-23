@@ -7,7 +7,7 @@ Animation editor.
 
 ## Preview
 
-![preview](preview.png)
+![preview](/preview.png?raw=true)
 
 ## Sources
 
