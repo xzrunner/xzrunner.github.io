@@ -7,7 +7,7 @@ Create scale9 for ui.
 
 ## Preview
 
-![](../../blob/master/editor/easyscale9/preview.JPG?raw=true)
+[preview](preview.JPG)
 
 ## Sources
 
