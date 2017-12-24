@@ -134,6 +134,9 @@ Compose scene nodes.
 * [easyanimation](editor/easyanimation/index.md) 
 Animation editor.
 
+* [easyscale9](editor/easyscale9/index.md) 
+Scale9 editor.
+
 ## Level editors
 
 ## Preprocess tools
