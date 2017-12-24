@@ -7,7 +7,7 @@ Create scale9 for ui.
 
 ## Preview
 
-[preview](preview.JPG)
+![preview](preview.JPG)
 
 ## Sources
 

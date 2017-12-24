@@ -7,7 +7,7 @@ Editor to compose different scene nodes.
 
 ## Preview
 
-![](preview.JPG?raw=true)
+![preview](preview.JPG)
 
 ## Sources
 
