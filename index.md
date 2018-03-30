@@ -6,11 +6,11 @@ cu, fs, logger, ds, guard
 
 * tools
 
-sm, memmgr, tasks, multitask, glp
+sm, memmgr, tasks, multitask, glp, stat
 
 * assets
 
-camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio
+camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim
 
 * preprocess tools
 
@@ -30,7 +30,7 @@ bimp, timp, simp, gimg, bs, js, s2serializer, s2loader, s2storer, playdb
 
 * wrapper
 
-gum
+gum, moon
 
 * editor framework
 
@@ -43,6 +43,10 @@ easycomplex, easyanimation, easyscale9, easyone
 * game framework
 
 dustengine
+
+* demo
+
+sample3rd
 
 # Projects
 
@@ -80,6 +84,9 @@ Task scheduling.
 * [glp](https://github.com/xzrunner/glp)
 Game loop.
 
+* [stat](https://github.com/xzrunner/stat)
+Statistic data.
+
 ## Assets
 
 * [camera25](https://github.com/xzrunner/camera25)
@@ -102,6 +109,9 @@ Skeletal animation, support mesh deformation.
 
 * [uniaudio](https://github.com/xzrunner/uniaudio)
 An audio api wrapper. Support OpenAL and OpenSLES.
+
+* [anim](https://github.com/xzrunner/anim)
+Animation.
 
 ## Preprocess tools
 
@@ -191,6 +201,9 @@ A lightweight database, using for assets load and hot update.
 * [gum](https://github.com/xzrunner/gum)
 A facade to high level.
 
+* [moon](https://github.com/xzrunner/moon)
+Lua wrapper.
+
 ## Editor framework
 
 * [easyeditor](https://github.com/xzrunner/easyeditor/tree/master/easyeditor)
@@ -234,6 +247,11 @@ Like Unity and Unreal editor.
 ## Game famework
 
 * [dustengine](https://github.com/xzrunner/dustengine)
+
+## Demo
+
+* [sample3rd](https://github.com/xzrunner/sample3rd)
+Transplant love2d's samples.
 
 # My games
 
