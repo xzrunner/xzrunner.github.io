@@ -10,7 +10,7 @@ sm, memmgr, tasks, multitask, glp, stat
 
 * assets
 
-camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim
+camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim, emitter
 
 * preprocess tools
 
@@ -18,7 +18,9 @@ pimg, texpack
 
 * scene graph
 
-sprite2, flatten, node0, node2, node3
+sprite series: sprite2, flatten
+
+node series: node0, node2, node3
 
 * render
 
@@ -26,11 +28,15 @@ unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting2, painting3
 
 * serializer
 
-bimp, timp, simp, gimg, bs, js, s2serializer, s2loader, s2storer, playdb
+gimg, bs, js, playdb
+
+sprite series: bimp, timp, simp, s2serializer, s2loader, s2storer
+
+node series: nserializer
 
 * wrapper
 
-gum, moon
+gum, facade, moon
 
 * editor framework
 
@@ -113,6 +119,9 @@ An audio api wrapper. Support OpenAL and OpenSLES.
 * [anim](https://github.com/xzrunner/anim)
 Animation.
 
+* [emitter](https://github.com/xzrunner/emitter)
+Emitter cpp wrapper, include p3d, p2d and mtrail.
+
 ## Preprocess tools
 
 * [pimg](https://github.com/xzrunner/pimg)
@@ -193,13 +202,19 @@ Loader for sprite2.
 * [s2storer](https://github.com/xzrunner/s2storer)
 Storer for sprite2.
 
+* [nserializer](https://github.com/xzrunner/nserializer)
+Node scene tree's serializer.
+
 * [playdb](https://github.com/xzrunner/playdb)
 A lightweight database, using for assets load and hot update.
 
 ## Wrapper
 
 * [gum](https://github.com/xzrunner/gum)
-A facade to high level.
+A facade to high level, use sprite2 as scene tree.
+
+* [facade](https://github.com/xzrunner/facade)
+A facade to high level, use node as scene tree.
 
 * [moon](https://github.com/xzrunner/moon)
 Lua wrapper.
