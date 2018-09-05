@@ -2,7 +2,7 @@
 
 * utility
 
-cu, fs, logger, ds, guard
+cu, fs, logger, ds, guard, cpputil
 
 * tools
 
@@ -26,7 +26,7 @@ entity series: entity0, entity2, entity3
 
 * render
 
-unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting2, painting3, terr, vtex
+unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting0, painting2, painting3, terr, vtex
 
 * serializer
 
@@ -47,6 +47,10 @@ gum, facade, moon
 * editor framework
 
 easyeditor, easyeditor0, easyeditor2, easyeditor3
+
+* editor library
+
+eanim, blueprint, shadergraph
 
 * editors
 
@@ -82,6 +86,9 @@ Some data struct for C.
 
 * [guard](https://github.com/xzrunner/guard)
 Assert and exception for diagnose.
+
+* [cpputil](https://github.com/xzrunner/cpputil)
+Utility for cpp.
 
 ## Toools
 
@@ -186,6 +193,9 @@ Old version with c.
 * [cooking](https://github.com/xzrunner/cooking)
 Use draw list for deferred rendering, used for decrease status changes and multithread rendering.
 
+* [painting0](https://github.com/xzrunner/painting0)
+Render base.
+
 * [painting2](https://github.com/xzrunner/painting2)
 Utility for 2d render.
 
@@ -266,6 +276,17 @@ Editor famework base.
 
 * [easyeditor3](https://github.com/xzrunner/easyeditor3)
 3D editor framework.
+
+## Editor library
+
+* [eanim](https://github.com/xzrunner/eanim)
+Animation editor library.
+
+* [blueprint](https://github.com/xzrunner/blueprint)
+Visual scripting.
+
+* [shadergraph](https://github.com/xzrunner/shadergraph)
+Visible shader editor. Front end.
 
 ## Editors
 
