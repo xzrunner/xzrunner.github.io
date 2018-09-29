@@ -26,7 +26,7 @@ entity series: entity0, entity2, entity3
 
 * render
 
-unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting0, painting2, painting3, terr, vtex
+unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting0, painting2, painting3, terr, vtex, shaderweaver
 
 * serializer
 
@@ -208,6 +208,9 @@ Terrain render.
 * [vtex](https://github.com/xzrunner/vtex)
 Virtual texture, clipmap.
 
+* [shaderweaver](https://github.com/xzrunner/shaderweaver)
+Shader segments. Visible shader editor's back end.
+
 ## Serializer
 
 * [bimp](https://github.com/xzrunner/bimp)
@@ -286,7 +289,7 @@ Animation editor library.
 Visual scripting.
 
 * [shadergraph](https://github.com/xzrunner/shadergraph)
-Visible shader editor. Front end.
+Visible shader editor's front end.
 
 ## Editors
 
