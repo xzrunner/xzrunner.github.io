@@ -6,11 +6,11 @@ cu, fs, logger, ds, guard, cpputil
 
 * tools
 
-sm, memmgr, tasks, multitask, glp, stat
+sm, memmgr, tasks, multitask, glp, stat, primitive
 
 * assets
 
-camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim, emitter
+camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim, emitter, geoshape
 
 * preprocess tools
 
@@ -26,7 +26,7 @@ entity series: entity0, entity2, entity3
 
 * render
 
-unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting0, painting2, painting3, terr, vtex, shaderweaver
+unirender, RapidVG, ShaderLab, dtex2, dtex, cooking, painting0, painting2, painting3, terr, vtex, shaderweaver, rendergraph
 
 * serializer
 
@@ -40,6 +40,10 @@ node series: nserializer
 
 entity series: eserializer
 
+* gui
+
+easygui
+
 * wrapper
 
 gum, facade, moon
@@ -50,7 +54,7 @@ easyeditor, easyeditor0, easyeditor2, easyeditor3
 
 * editor library
 
-eanim, blueprint, shadergraph
+eanim, blueprint, shadergraph, prototyping, drawing2
 
 * editors
 
@@ -110,6 +114,9 @@ Game loop.
 * [stat](https://github.com/xzrunner/stat)
 Statistic data.
 
+* [primitive](https://github.com/xzrunner/primitive)
+Draw primitive shapes.
+
 ## Assets
 
 * [camera25](https://github.com/xzrunner/camera25)
@@ -138,6 +145,9 @@ Animation.
 
 * [emitter](https://github.com/xzrunner/emitter)
 Emitter cpp wrapper, include p3d, p2d and mtrail.
+
+* [geoshape](https://github.com/xzrunner/geoshape)
+2D and 3D geometric shapes.
 
 ## Preprocess tools
 
@@ -211,6 +221,12 @@ Virtual texture, clipmap.
 * [shaderweaver](https://github.com/xzrunner/shaderweaver)
 Shader segments. Visible shader editor's back end.
 
+* [rendergraph](https://github.com/xzrunner/rendergraph)
+Shader manager
+
+* [tessellation](https://github.com/xzrunner/tessellation)
+Tessellate primitive shapes to triangles for rendering.
+
 ## Serializer
 
 * [bimp](https://github.com/xzrunner/bimp)
@@ -255,6 +271,11 @@ A lightweight database, using for assets load and hot update.
 * [lexer](https://github.com/xzrunner/lexer)
 Used to parse a particular type of text.
 
+## GUI
+
+* [easygui](https://github.com/xzrunner/easygui)
+Immediate Mode GUI with cache.
+
 ## Wrapper
 
 * [gum](https://github.com/xzrunner/gum)
@@ -290,6 +311,12 @@ Visual scripting.
 
 * [shadergraph](https://github.com/xzrunner/shadergraph)
 Visible shader editor's front end.
+
+* [prototyping](https://github.com/xzrunner/prototyping)
+Prototyping tool.
+
+* [drawing2](https://github.com/xzrunner/drawing2)
+Drawing 2d shapes.
 
 ## Editors
 
