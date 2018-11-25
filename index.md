@@ -6,11 +6,11 @@ cu, fs, logger, ds, guard, cpputil
 
 * tools
 
-sm, memmgr, tasks, multitask, glp, stat, primitive
+sm, memmgr, tasks, multitask, glp, stat, halfedge, primitive
 
 * assets
 
-camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim, emitter, geoshape
+camera25, gtxt, polymesh, ps, mtrail, rigging, uniaudio, anim, emitter, geoshape, model
 
 * preprocess tools
 
@@ -114,6 +114,9 @@ Game loop.
 * [stat](https://github.com/xzrunner/stat)
 Statistic data.
 
+* [halfedge](https://github.com/xzrunner/halfedge)
+Halfedge data structure.
+
 * [primitive](https://github.com/xzrunner/primitive)
 Draw primitive shapes.
 
@@ -148,6 +151,9 @@ Emitter cpp wrapper, include p3d, p2d and mtrail.
 
 * [geoshape](https://github.com/xzrunner/geoshape)
 2D and 3D geometric shapes.
+
+* [model](https://github.com/xzrunner/model)
+3D model and anim.
 
 ## Preprocess tools
 
