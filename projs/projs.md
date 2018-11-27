@@ -117,11 +117,17 @@ cpp通用的工具，比如字符串处理。
 * [polymesh](https://github.com/xzrunner/polymesh)
 2d mesh网格
 
+![preview](easymesh.gif)
+
 * [ps](https://github.com/xzrunner/ps)
 粒子特效
 
+![preview](easyparticle3d.png)
+
 * [mtrail](https://github.com/xzrunner/mtrail)
 拖尾特效
+
+![preview](easytrail.gif)
 
 * [rigging](https://github.com/xzrunner/rigging)
 2d骨骼动画，mesh变形动画，支持[Spine](http://zh.esotericsoftware.com/)输出的动画数据模型，与官方runtime相比内存占用更少更紧凑。
@@ -138,10 +144,12 @@ cpp通用的工具，比如字符串处理。
 * [geoshape](https://github.com/xzrunner/geoshape)
 基本几何图形
 
+![preview](easyshape.gif)
+
 * [model](https://github.com/xzrunner/model)
 3D模型和动画
 
-![preview](anim2.gif)
+![preview](model.gif)
 
 ## 预处理工具
 
@@ -269,11 +277,15 @@ Lua封装层
 * [eanim](https://github.com/xzrunner/eanim)
 通用动画部分，包括时间轴、图层等。
 
+![preview](easyanim.gif)
+
 * [blueprint](https://github.com/xzrunner/blueprint)
 可视化逻辑编辑工具的通用前端部分。
 
 * [shadergraph](https://github.com/xzrunner/shadergraph)
 基于blueprint的shader可视化编辑器的前端部分。
+
+![preview](shadergraph.gif)
 
 * [prototyping](https://github.com/xzrunner/prototyping)
 原型工具参考了[axure](https://www.axure.com/)，为了改善UI制作工作流程，提高迭代效率。还未完成。
@@ -291,6 +303,13 @@ Lua封装层
 ## 资源编辑器
 
 * 老版本编辑器，比如[easycomplex](editor/easycomplex/index.md)组装成场景树的编辑器。[easyanimation](editor/easyanimation/index.md)动画编辑器。[easyscale9](editor/easyscale9/index.md)九宫格编辑器。
+
+![preview](easycomplex.gif)
+![preview](easymask.gif)
+![preview](easyscale9.gif)
+![preview](easytexture.gif)
+![preview](easyui.gif)
+![preview](easydb.gif)
 
 * [easyone](https://github.com/xzrunner/easyone) 新版本的编辑器，模仿unity和unreal。
 
